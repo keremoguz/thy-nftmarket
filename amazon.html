@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>THY Yeşil Market</title>
+
+    <!-- This code is needed for responsive design to work.
+      (Responsive design = make the website look good on
+      smaller screen sizes like a phone or a tablet). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Load a font called Roboto from Google Fonts. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Here are the CSS files for this page. -->
+    <link rel="stylesheet" href="styles/shared/general.css">
+    <link rel="stylesheet" href="styles/shared/amazon-header.css">
+    <link rel="stylesheet" href="styles/pages/amazon.css">
+  </head>
+  <body>
+    <div class="amazon-header">
+      <a href="amazon.html" class="header-link">
+      <div class="amazon-header-left-section">
+          <img class="thy-logo"
+            src="images/thy-logo.png">
+          
+          <img class="thy-mobile-logo"
+            src="images/thy-logo.png">
+          <p class="brand-name">NFT Yeşil Market</p>
+      </div>
+    </a>
+
+      <div class="thy-header-middle-section">
+        <input class="search-bar" type="text" placeholder="Arama">
+
+        <button class="search-button">
+          <img class="search-icon" src="images/icons/search-icon.png">
+        </button>
+      </div>
+
+      <div class="thy-header-right-section">
+        <div class="bakiye-link">
+          <span class="bakiye-text">Bakiyeniz : <span class="mil-text">90.000 Yeşil Mil</span></span>
+        </div>
+
+        <a class="cart-link header-link" href="checkout.html">
+          <img class="cart-icon" src="images/icons/cart-icon.png">
+          <div class="cart-text">Sepet</div>
+          <div class="cart-quantity js-cart-quantity">(0)</div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="main">
+      <div class="products-grid js-products-grid"></div>
+    </div>
+    <script type = "module" src="scripts/amazon.js"></script>
+  </body>
+</html>
