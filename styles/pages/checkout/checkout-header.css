@@ -2,10 +2,9 @@
   height: 60px;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: white;
+  background-color: black;
 
   display: flex;
-  justify-content: center;
 
   position: fixed;
   top: 0;
@@ -26,12 +25,12 @@
   width: 150px;
 }
 
-.amazon-logo {
-  width: 100px;
-  margin-top: 12px;
+.thy-logo {
+  width: 45px;
+  margin-top: 6px;
 }
 
-.amazon-mobile-logo {
+.thy-mobile-logo {
   display: none;
 }
 
@@ -44,11 +43,11 @@
     width: auto;
   }
 
-  .amazon-logo {
+  .thy-logo {
     display: none;
   }
 
-  .amazon-mobile-logo {
+  .thy-mobile-logo {
     display: inline-block;
     height: 35px;
     margin-top: 5px;
@@ -62,9 +61,8 @@
 
   font-size: 25px;
   font-weight: 500;
-
+  color: white;
   display: flex;
-  justify-content: center;
 }
 
 .return-to-home-link {

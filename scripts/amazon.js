@@ -24,7 +24,7 @@ products.forEach((product) =>{
           </div>
 
           <div class="product-price">
-            $${formatCurrency(product.priceCents/100)}
+            Fiyat : ${product.priceCents} Yeşil Mil
           </div>
 
           <div class="product-quantity-container">
@@ -51,7 +51,7 @@ products.forEach((product) =>{
 
           <button class="add-to-cart-button button-primary js-add-to-cart"
             data-product-id ="${product.id}">
-            Add to Cart
+            Sepete Ekle
           </button>
         </div>
     `;
@@ -62,12 +62,11 @@ document.querySelector('.js-products-grid').innerHTML = productsHTML;
 
 function updateCartQuantity() {
     let cartQuantity = 0;
-            cart.forEach( (cartItem) => {
-                cartQuantity += cartItem.quantity;
-            });
-            document.querySelector(".js-cart-quantity")
-                .innerHTML = cartQuantity;
-            console.log(cart);
+    cart.forEach( (cartItem) => {
+        cartQuantity += cartItem.quantity;
+    });
+    document.querySelector(".js-cart-quantity")
+        .innerHTML = `(${cartQuantity})`;
 }
 
 document.querySelectorAll('.js-add-to-cart')

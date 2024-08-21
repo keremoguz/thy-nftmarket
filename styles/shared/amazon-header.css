@@ -2,7 +2,7 @@
   background-color: rgb(19, 25, 33);
   color: white;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 0px;
 
   display: flex;
   align-items: center;
@@ -16,7 +16,9 @@
 }
 
 .amazon-header-left-section {
-  width: 180px;
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
 }
 
 @media (max-width: 800px) {
@@ -38,12 +40,11 @@
   border: 1px solid white;
 }
 
-.amazon-logo {
-  width: 100px;
-  margin-top: 5px;
+.thy-logo {
+  width: 35px;
 }
 
-.amazon-mobile-logo {
+.thy-mobile-logo {
   display: none;
 }
 
@@ -59,9 +60,9 @@
   }
 }
 
-.amazon-header-middle-section {
+.thy-header-middle-section {
   flex: 1;
-  max-width: 850px;
+  max-width: 750px;
   margin-left: 10px;
   margin-right: 10px;
   display: flex;
@@ -74,19 +75,19 @@
   height: 38px;
   padding-left: 15px;
   border: none;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-top-left-radius: 19px;
+  border-bottom-left-radius: 19px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
 
 .search-button {
-  background-color: rgb(254, 189, 105);
+  background-color: rgb(251, 42, 42);
   border: none;
-  width: 45px;
+  width: 60px;
   height: 40px;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
   flex-shrink: 0;
 }
 
@@ -96,26 +97,30 @@
   margin-top: 3px;
 }
 
-.amazon-header-right-section {
+.thy-header-right-section {
   width: 180px;
+  margin-right: 20px;
   flex-shrink: 0;
   display: flex;
   justify-content: end;
 }
 
 .orders-link {
+  margin-top:10px;
   color: white;
 }
 
 .returns-text {
   display: block;
-  font-size: 13px;
+  font-size: 10px;
+  margin-bottom: 4px;
 }
 
 .orders-text {
   display: block;
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(136, 227, 0);
 }
 
 .cart-link {
@@ -123,6 +128,15 @@
   display: flex;
   align-items: center;
   position: relative;
+  width: 600px;
+  border: 1px solid rgba(0,0,0,0);
+  border-radius: 2px; 
+  padding: 0;
+  margin-left: 8px
+}
+ 
+.cart-link:hover{
+  border: 1px solid white;
 }
 
 .cart-icon {
@@ -130,20 +144,19 @@
 }
 
 .cart-text {
-  margin-top: 12px;
+  margin-top: 0px;
   font-size: 15px;
   font-weight: 700;
 }
 
 .cart-quantity {
-  color: rgb(240, 136, 4);
-  font-size: 16px;
+  color: white;
+  font-size: 15px;
   font-weight: 700;
 
   position: absolute;
-  top: 4px;
-  left: 22px;
+  top: 17px;
+  left: 93px;
   
   width: 26px;
-  text-align: center;
 }
