@@ -28,7 +28,7 @@ export function renderOrderSummary(){
         <div class="cart-item-container 
             js-cart-item-container-${matchingProduct.id}">
             <div class="delivery-date">
-                Delivery date: ${dateString}
+                Cüzdan Adı
             </div>
 
             <div class="cart-item-details-grid">
@@ -40,25 +40,25 @@ export function renderOrderSummary(){
                     ${matchingProduct.name}
                 </div>
                 <div class="product-price">
-                    $${formatCurrency(matchingProduct.priceCents)}
+                    ${(matchingProduct.priceCents)} YM
                 </div>
                 <div class="product-quantity">
                     <span>
-                    Quantity: <span class="quantity-label">${cartItem.quantity}</span>
+                    Miktar: <span class="quantity-label">${cartItem.quantity}</span>
                     </span>
                     <span class="update-quantity-link link-primary">
-                    Update
+                    Değiştir
                     </span>
                     <span class="delete-quantity-link link-primary 
                         js-delete-link " data-product-id = "${matchingProduct.id}">
-                    Delete
+                    Kaldır
                     </span>
                 </div>
                 </div>
 
                 <div class="delivery-options">
                     <div class="delivery-options-title">
-                        Choose a delivery option:
+                        NFT Cüzdanınızı seçiniz:
                     </div>
                     <div>
                     ${deliveryOptionsHTML(matchingProduct, cartItem)}
@@ -97,10 +97,10 @@ export function renderOrderSummary(){
                         name="delivery-option-${matchingProduct.id}">
                     <div>
                     <div class="delivery-option-date">
-                        ${dateString}
+                        Cüzdan Adı
                     </div>
                     <div class="delivery-option-price">
-                        ${priceString} Shipping
+                        Cüzdan Kodu
                     </div>
                     </div>
                 </div>
