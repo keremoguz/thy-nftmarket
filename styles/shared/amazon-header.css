@@ -20,6 +20,12 @@
   grid-template-columns: 35px 1fr;
   align-items: center;
 }
+.brand-name {
+  font-size: 18px;
+  padding-left: 18px;
+  color: rgb(8, 206, 8);
+  padding-right: 8px;
+}
 
 @media (max-width: 800px) {
   .amazon-header-left-section {
@@ -119,7 +125,7 @@
 .mil-text {
   font-weight: 500;
   font-size: 15px;
-  color: rgb(136, 227, 0);
+  color: rgb(8, 206, 8);
 }
 
 .cart-link {

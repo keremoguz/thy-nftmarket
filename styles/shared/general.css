@@ -99,5 +99,5 @@ select {
 
 select:focus,
 input:focus {
-  outline: 2px solid rgb(255, 153, 0);
+  outline: 2px solid rgb(0, 255, 47);
 }
