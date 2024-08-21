@@ -1,8 +1,8 @@
 .checkout-header {
   height: 60px;
-  padding-left: 30px;
+  padding-left: 15px;
   padding-right: 30px;
-  background-color: black;
+  background-color: rgb(19, 25, 33);
 
   display: flex;
 
@@ -22,16 +22,37 @@
 }
 
 .checkout-header-left-section {
-  width: 150px;
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  border: 1px solid rgb(19, 25, 33);
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+.checkout-header-left-section:hover{
+  border: 1px solid white;
+}
+
+.checkout-header-link{
+  text-decoration: none;
 }
 
 .thy-logo {
   width: 35px;
-  margin-top: 6px;
+  padding: 8px;
 }
 
 .thy-mobile-logo {
   display: none;
+}
+
+.brand-name {
+  font-size: 18px;
+  padding-left: 18px;
+  color: rgb(8, 206, 8);
+  padding-right: 8px;
 }
 
 /* @media is used to create responsive design (making the
