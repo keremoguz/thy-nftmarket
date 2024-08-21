@@ -47,10 +47,18 @@ export function renderPaymentSummary() {
             <div class="payment-summary-money">$${formatCurrency(totalCents)}</div>
           </div>
 
-          <button class="place-order-button button-primary">
-            Place your order
+          <button class="place-order-button button-primary js-place-order-button">
+            Ödeme adımına geç
           </button>
     `;
     document.querySelector('.js-payment-summary')
         .innerHTML = paymentSummaryHTML;
+
+    const orderButton = document.querySelector('.js-place-order-button');
+    orderButton.addEventListener('click', () => {
+        const additionalContent = `
+            <img src="images/icons/green-miles.jpg" class = "green-miles-icon">
+        `;
+        document.querySelector('.js-payment-summary').innerHTML += additionalContent;
+    });
 };

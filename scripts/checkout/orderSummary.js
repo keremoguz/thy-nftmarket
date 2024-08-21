@@ -121,6 +121,7 @@ export function renderOrderSummary(){
                     `.js-cart-item-container-${productId}`);
                 console.log(container);
                 container.remove();
+                renderOrderSummary(); // emin değilim
                 renderPaymentSummary();
             });
         });
