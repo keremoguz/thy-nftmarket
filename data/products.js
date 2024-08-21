@@ -20,7 +20,7 @@ export const products = [
       stars: 4.5,
       count: 87
     },
-    priceCents: 1090,
+    priceCents: 2500,
     keywords: [
       "socks",
       "sports",
@@ -35,7 +35,7 @@ export const products = [
       stars: 4,
       count: 127
     },
-    priceCents: 2095,
+    priceCents: 3000,
     keywords: [
       "sports",
       "basketballs"
@@ -49,7 +49,7 @@ export const products = [
       stars: 4.5,
       count: 56
     },
-    priceCents: 799,
+    priceCents: 4500,
     keywords: [
       "tshirts",
       "apparel",
@@ -66,7 +66,7 @@ export const products = [
       stars: 5,
       count: 2197
     },
-    priceCents: 1899,
+    priceCents: 2000,
     keywords: [
       "toaster",
       "kitchen",
@@ -81,7 +81,7 @@ export const products = [
       stars: 4,
       count: 37
     },
-    priceCents: 2067,
+    priceCents: 4000,
     keywords: [
       "plates",
       "kitchen",
@@ -96,7 +96,7 @@ export const products = [
       stars: 4.5,
       count: 175
     },
-    priceCents: 3499,
+    priceCents: 2500,
     keywords: [
       "kitchen",
       "cookware"
@@ -110,7 +110,7 @@ export const products = [
       stars: 4.5,
       count: 317
     },
-    priceCents: 2400,
+    priceCents: 5000,
     keywords: [
       "hoodies",
       "sweaters",
@@ -125,7 +125,7 @@ export const products = [
       stars: 4.5,
       count: 144
     },
-    priceCents: 3599,
+    priceCents: 3500,
     keywords: [
       "bathroom",
       "washroom",
@@ -142,7 +142,7 @@ export const products = [
       stars: 4.5,
       count: 305
     },
-    priceCents: 2899,
+    priceCents: 7000,
     keywords: [
       "bathroom",
       "cleaning"
@@ -156,7 +156,7 @@ export const products = [
       stars: 4,
       count: 89
     },
-    priceCents: 3390,
+    priceCents: 8000,
     keywords: [
       "shoes",
       "running shoes",
@@ -165,13 +165,13 @@ export const products = [
   },
   {
     id: "5968897c-4d27-4872-89f6-5bcb052746d7",
-    image: "images/products/women-chiffon-beachwear-coverup-black.jpg",
-    name: "Women's Chiffon Beachwear Cover Up - Black",
+    image: "images/products/nft-11.webp",
+    name: "NFT-11",
     rating: {
       stars: 4.5,
       count: 235
     },
-    priceCents: 2070,
+    priceCents: 8000,
     keywords: [
       "robe",
       "swimsuit",
@@ -184,13 +184,13 @@ export const products = [
   },
   {
     id: "aad29d11-ea98-41ee-9285-b916638cac4a",
-    image: "images/products/round-sunglasses-black.jpg",
-    name: "Round Sunglasses",
+    image: "images/products/nft-12.webp",
+    name: "NFT-12",
     rating: {
       stars: 4.5,
       count: 30
     },
-    priceCents: 1560,
+    priceCents: 6500,
     keywords: [
       "accessories",
       "shades"
@@ -198,13 +198,13 @@ export const products = [
   },
   {
     id: "04701903-bc79-49c6-bc11-1af7e3651358",
-    image: "images/products/women-beach-sandals.jpg",
-    name: "Women's Two Strap Buckle Sandals - Tan",
+    image: "images/products/nft-13.webp",
+    name: "NFT-13",
     rating: {
       stars: 4.5,
       count: 562
     },
-    priceCents: 2499,
+    priceCents: 4500,
     keywords: [
       "footwear",
       "sandals",
@@ -215,13 +215,13 @@ export const products = [
   },
   {
     id: "901eb2ca-386d-432e-82f0-6fb1ee7bf969",
-    image: "images/products/blackout-curtain-set-beige.webp",
-    name: "Blackout Curtains Set 4-Pack - Beige",
+    image: "images/products/nft-14.webp",
+    name: "NFT-14",
     rating: {
       stars: 4.5,
       count: 232
     },
-    priceCents: 4599,
+    priceCents: 3500,
     keywords: [
       "bedroom",
       "curtains",
@@ -230,13 +230,13 @@ export const products = [
   },
   {
     id: "82bb68d7-ebc9-476a-989c-c78a40ee5cd9",
-    image: "images/products/men-slim-fit-summer-shorts-gray.jpg",
-    name: "Men's Slim-Fit Summer Shorts",
+    image: "images/products/nft-15.webp",
+    name: "NFT-15",
     rating: {
       stars: 4,
       count: 160
     },
-    priceCents: 1699,
+    priceCents: 2500,
     keywords: [
       "shorts",
       "apparel",
@@ -245,13 +245,13 @@ export const products = [
   },
   {
     id: "c2a82c5e-aff4-435f-9975-517cfaba2ece",
-    image: "images/products/electric-glass-and-steel-hot-water-kettle.webp",
-    name: "Electric Glass and Steel Hot Tea Water Kettle - 1.7-Liter",
+    image: "images/products/nft-16.webp",
+    name: "NFT-16",
     rating: {
       stars: 5,
       count: 846
     },
-    priceCents: 3074,
+    priceCents: 3000,
     keywords: [
       "water boiler",
       "appliances",
@@ -260,13 +260,13 @@ export const products = [
   },
   {
     id: "6b07d4e7-f540-454e-8a1e-363f25dbae7d",
-    image: "images/products/facial-tissue-2-ply-18-boxes.jpg",
-    name: "Ultra Soft Tissue 2-Ply - 18 Box",
+    image: "images/products/nft-17.webp",
+    name: "NFT-17",
     rating: {
       stars: 4,
       count: 99
     },
-    priceCents: 2374,
+    priceCents: 2000,
     keywords: [
       "kleenex",
       "tissues",
@@ -277,13 +277,13 @@ export const products = [
   },
   {
     id: "a82c6bac-3067-4e68-a5ba-d827ac0be010",
-    image: "images/products/straw-sunhat.webp",
-    name: "Straw Lifeguard Sun Hat",
+    image: "images/products/nft-18.webp",
+    name: "NFT-18",
     rating: {
       stars: 4,
       count: 215
     },
-    priceCents: 2200,
+    priceCents: 2500,
     keywords: [
       "hats",
       "straw hats",
@@ -293,13 +293,13 @@ export const products = [
   },
   {
     id: "e4f64a65-1377-42bc-89a5-e572d19252e2",
-    image: "images/products/sky-flower-stud-earrings.webp",
-    name: "Sterling Silver Sky Flower Stud Earrings",
+    image: "images/products/nft-19.webp",
+    name: "NFT-19",
     rating: {
       stars: 4.5,
       count: 52
     },
-    priceCents: 1799,
+    priceCents: 6000,
     keywords: [
       "jewelry",
       "accessories",
@@ -308,13 +308,13 @@ export const products = [
   },
   {
     id: "b0f17cc5-8b40-4ca5-9142-b61fe3d98c85",
-    image: "images/products/women-stretch-popover-hoodie-black.jpg",
-    name: "Women's Stretch Popover Hoodie",
+    image: "images/products/nft-20.webp",
+    name: "NFT-20",
     rating: {
       stars: 4.5,
       count: 2465
     },
-    priceCents: 1374,
+    priceCents: 3000,
     keywords: [
       "hooded",
       "hoodies",
@@ -327,13 +327,13 @@ export const products = [
   },
   {
     id: "a93a101d-79ef-4cf3-a6cf-6dbe532a1b4a",
-    image: "images/products/bathroom-rug.jpg",
-    name: "Bathroom Bath Rug Mat 20 x 31 Inch - Grey",
+    image: "images/products/nft-21.webp",
+    name: "NFT-21",
     rating: {
       stars: 4.5,
       count: 119
     },
-    priceCents: 1250,
+    priceCents: 2500,
     keywords: [
       "bathmat",
       "bathroom",
@@ -342,13 +342,13 @@ export const products = [
   },
   {
     id: "4f4fbcc2-4e72-45cc-935c-9e13d79cc57f",
-    image: "images/products/women-knit-ballet-flat-black.jpg",
-    name: "Women's Knit Ballet Flat",
+    image: "images/products/nft-22.webp",
+    name: "NFT-22",
     rating: {
       stars: 4,
       count: 326
     },
-    priceCents: 2640,
+    priceCents: 2500,
     keywords: [
       "shoes",
       "flats",
@@ -358,13 +358,13 @@ export const products = [
   },
   {
     id: "8b5a2ee1-6055-422a-a666-b34ba28b76d4",
-    image: "images/products/men-golf-polo-t-shirt-blue.jpg",
-    name: "Men's Regular-Fit Quick-Dry Golf Polo Shirt",
+    image: "images/products/nft-23.webp",
+    name: "NFT-23",
     rating: {
       stars: 4.5,
       count: 2556
     },
-    priceCents: 1599,
+    priceCents: 3000,
     keywords: [
       "tshirts",
       "shirts",
@@ -376,13 +376,13 @@ export const products = [
   },
   {
     id: "b86ddc8b-3501-4b17-9889-a3bad6fb585f",
-    image: "images/products/trash-can-with-foot-pedal-50-liter.jpg",
-    name: "Trash Can with Foot Pedal - Brushed Stainless Steel",
+    image: "images/products/nft-24.webp",
+    name: "NFT-24",
     rating: {
       stars: 4.5,
       count: 2286
     },
-    priceCents: 8300,
+    priceCents: 6500,
     keywords: [
       "garbage",
       "bins",
@@ -392,13 +392,13 @@ export const products = [
   },
   {
     id: "19c6a64a-5463-4d45-9af8-e41140a4100c",
-    image: "images/products/duvet-cover-set-blue-twin.jpg",
-    name: "Duvet Cover Set with Zipper Closure",
+    image: "images/products/nft-25.webp",
+    name: "NFT-25",
     rating: {
       stars: 4,
       count: 456
     },
-    priceCents: 2399,
+    priceCents: 2500,
     keywords: [
       "bedroom",
       "bed sheets",
@@ -415,7 +415,7 @@ export const products = [
       stars: 5,
       count: 83
     },
-    priceCents: 1250,
+    priceCents: 2000,
     keywords: [
       "hats",
       "winter hats",
@@ -433,7 +433,7 @@ export const products = [
       stars: 4.5,
       count: 9017
     },
-    priceCents: 2290,
+    priceCents: 5000,
     keywords: [
       "pants",
       "apparel",
@@ -448,7 +448,7 @@ export const products = [
       stars: 4,
       count: 229
     },
-    priceCents: 3890,
+    priceCents: 4000,
     keywords: [
       "shoes",
       "running shoes",
@@ -464,7 +464,7 @@ export const products = [
       stars: 3.5,
       count: 42
     },
-    priceCents: 1690,
+    priceCents: 3500,
     keywords: [
       "sunglasses",
       "glasses",
@@ -480,7 +480,7 @@ export const products = [
       stars: 4.5,
       count: 511
     },
-    priceCents: 6797,
+    priceCents: 7000,
     keywords: [
       "cooking set",
       "kitchen"
@@ -494,7 +494,7 @@ export const products = [
       stars: 4.5,
       count: 130
     },
-    priceCents: 1649,
+    priceCents: 3500,
     keywords: [
       "bathroom",
       "washroom",
@@ -510,7 +510,7 @@ export const products = [
       stars: 4.5,
       count: 248
     },
-    priceCents: 2400,
+    priceCents: 6000,
     keywords: [
       "pants",
       "sweatpants",
@@ -527,7 +527,7 @@ export const products = [
       stars: 4.5,
       count: 117
     },
-    priceCents: 2400,
+    priceCents: 5500,
     keywords: [
       "accessories",
       "womens"
@@ -541,7 +541,7 @@ export const products = [
       stars: 4,
       count: 126
     },
-    priceCents: 2899,
+    priceCents: 3000,
     keywords: [
       "boxes",
       "food containers",
@@ -556,7 +556,7 @@ export const products = [
       stars: 4.5,
       count: 1211
     },
-    priceCents: 2250,
+    priceCents: 9000,
     keywords: [
       "coffeemakers",
       "kitchen",
@@ -571,7 +571,7 @@ export const products = [
       stars: 4.5,
       count: 363
     },
-    priceCents: 3099,
+    priceCents: 7000,
     keywords: [
       "bedroom",
       "home"
@@ -585,7 +585,7 @@ export const products = [
       stars: 4.5,
       count: 93
     },
-    priceCents: 2110,
+    priceCents: 2500,
     keywords: [
       "bathroom",
       "home",
@@ -600,7 +600,7 @@ export const products = [
       stars: 4,
       count: 89
     },
-    priceCents: 3390,
+    priceCents: 3500,
     keywords: [
       "shoes",
       "running shoes",
@@ -616,7 +616,7 @@ export const products = [
       stars: 4,
       count: 3
     },
-    priceCents: 10747,
+    priceCents: 7000,
     keywords: [
       "food blenders",
       "kitchen",
@@ -631,7 +631,7 @@ export const products = [
       stars: 5,
       count: 679
     },
-    priceCents: 3899,
+    priceCents: 3000,
     keywords: [
       "mixing bowls",
       "baking",
@@ -647,7 +647,7 @@ export const products = [
       stars: 4.5,
       count: 1045
     },
-    priceCents: 5799,
+    priceCents: 5000,
     keywords: [
       "kitchen",
       "kitchen towels",
@@ -662,7 +662,7 @@ export const products = [
       stars: 4.5,
       count: 3157
     },
-    priceCents: 2400,
+    priceCents: 2500,
     keywords: [
       "sweaters",
       "hoodies",
