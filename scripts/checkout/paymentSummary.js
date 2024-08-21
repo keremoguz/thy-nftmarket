@@ -29,7 +29,7 @@ export function renderPaymentSummary() {
           </div>
 
           <div class="payment-summary-row">
-            <div> Kargo &amp; İşlem Ücreti:</div>
+            <div> Komisyon &amp; İşlem Ücreti:</div>
             <div class="payment-summary-money">${shippingPriceCents} YM</div>
           </div>
           
@@ -70,7 +70,7 @@ export function renderPaymentSummary() {
           </div>
 
           <div class="payment-summary-row">
-            <div> Kargo &amp; İşlem Ücreti:</div>
+            <div> Komisyon &amp; İşlem Ücreti:</div>
             <div class="payment-summary-money">${shippingPriceCents} YM</div>
           </div>
           
