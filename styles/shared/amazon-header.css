@@ -142,7 +142,7 @@
 }
 
 .cart-icon {
-  width: 35px; /* Adjust width as needed */
+  width: 30px; /* Adjust width as needed */
   flex-shrink: 0; /* Prevents the icon from shrinking */
   margin-right: 5px; /* Space between icon and text */
 }
@@ -151,6 +151,7 @@
   font-size: 15px;
   font-weight: 700;
   margin-left: 0; /* Removes any automatic left margin */
+  margin-top: 7px;
 }
 
 .cart-quantity {
@@ -159,6 +160,7 @@
   margin-left: 5px; /* Space between text and quantity */
   position: relative;
   top: 0; /* Adjust alignment relative to the text */
+  margin-top: 7px;
 }
 
 .bakiye-text,
