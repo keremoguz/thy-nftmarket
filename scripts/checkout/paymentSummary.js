@@ -13,9 +13,10 @@ export function renderPaymentSummary() {
         const deliveryOption = getDeliveryOption(cartItem.deliveryOptionId);
         shippingPriceCents += deliveryOption.priceCents;
     });
-    const totalBeforeTaxCents = productPriceCents + shippingPriceCents;
-    const taxCents = totalBeforeTaxCents * 0.1;
-    const totalCents = totalBeforeTaxCents + taxCents;
+    // const totalBeforeTaxCents = productPriceCents + shippingPriceCents;
+    // const taxCents = totalBeforeTaxCents * 0.1;
+    const totalCents = shippingPriceCents + productPriceCents;
+   
 
     const paymentSummaryHTML = `
           <div class="payment-summary-title">
@@ -24,27 +25,17 @@ export function renderPaymentSummary() {
 
           <div class="payment-summary-row">
             <div>NFT'ler (3):</div>
-            <div class="payment-summary-money">$${formatCurrency(productPriceCents)}</div>
+            <div class="payment-summary-money">${(productPriceCents)} YM</div>
           </div>
 
           <div class="payment-summary-row">
-            <div>Shipping &amp; handling:</div>
-            <div class="payment-summary-money">$${formatCurrency(shippingPriceCents)}</div>
+            <div> Kargo &amp; İşlem Ücreti:</div>
+            <div class="payment-summary-money">${shippingPriceCents} YM</div>
           </div>
-
-          <div class="payment-summary-row subtotal-row">
-            <div>Total before tax:</div>
-            <div class="payment-summary-money">$${formatCurrency(totalBeforeTaxCents)}</div>
-          </div>
-
-          <div class="payment-summary-row">
-            <div>Estimated tax (10%):</div>
-            <div class="payment-summary-money">$${formatCurrency(taxCents)}</div>
-          </div>
-
+          
           <div class="payment-summary-row total-row">
-            <div>Order total:</div>
-            <div class="payment-summary-money">$${formatCurrency(totalCents)}</div>
+            <div>Total:</div>
+            <div class="payment-summary-money">${(totalCents)} Yeşil Mil</div>
           </div>
 
           <button class="place-order-button button-primary js-place-order-button">
@@ -70,33 +61,23 @@ export function renderPaymentSummary() {
         isChecked = true;
         document.querySelector('.js-payment-summary').innerHTML = `
             <div class="payment-summary-title">
-              Ödeme Özeti
-            </div>
+            Ödeme Özeti
+          </div>
 
-            <div class="payment-summary-row">
-              <div>NFT'ler (3):</div>
-              <div class="payment-summary-money">$${formatCurrency(productPriceCents)}</div>
-            </div>
+          <div class="payment-summary-row">
+            <div>NFT'ler (3):</div>
+            <div class="payment-summary-money">${(productPriceCents)} YM</div>
+          </div>
 
-            <div class="payment-summary-row">
-              <div>Shipping &amp; handling:</div>
-              <div class="payment-summary-money">$${formatCurrency(shippingPriceCents)}</div>
-            </div>
-
-            <div class="payment-summary-row subtotal-row">
-              <div>Total before tax:</div>
-              <div class="payment-summary-money">$${formatCurrency(totalBeforeTaxCents)}</div>
-            </div>
-
-            <div class="payment-summary-row">
-              <div>Estimated tax (10%):</div>
-              <div class="payment-summary-money">$${formatCurrency(taxCents)}</div>
-            </div>
-
-            <div class="payment-summary-row total-row">
-              <div>Order total:</div>
-              <div class="payment-summary-money">$${formatCurrency(totalCents)}</div>
-            </div>
+          <div class="payment-summary-row">
+            <div> Kargo &amp; İşlem Ücreti:</div>
+            <div class="payment-summary-money">${shippingPriceCents} YM</div>
+          </div>
+          
+          <div class="payment-summary-row total-row">
+            <div>Total:</div>
+            <div class="payment-summary-money">${(totalCents)} Yeşil Mil</div>
+          </div>
 
             <button class="place-order-button button-primary js-place-order-button">
               Ödeme adımına geç
@@ -115,3 +96,16 @@ export function renderPaymentSummary() {
     
 
 };
+
+// tax vs. için fiyat bilgisi gerekirse bakarız
+/*
+<div class="payment-summary-row subtotal-row">
+            <div>Total before tax:</div>
+            <div class="payment-summary-money">$${(totalBeforeTaxCents)}</div>
+          </div>
+
+          <div class="payment-summary-row">
+            <div>Estimated tax (10%):</div>
+            <div class="payment-summary-money">$${(0)}</div>
+          </div>
+ */
