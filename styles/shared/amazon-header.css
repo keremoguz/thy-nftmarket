@@ -29,7 +29,7 @@
 
 .header-link {
   display: inline-block;
-  padding: 6px;
+  padding: 0px;
   border-radius: 2px;
   cursor: pointer;
   text-decoration: none;
@@ -98,28 +98,26 @@
 }
 
 .thy-header-right-section {
-  width: 180px;
-  margin-right: 20px;
-  flex-shrink: 0;
+  width: 300px;
+  padding-right: 20px;
   display: flex;
-  justify-content: end;
+  justify-content: space-between; /* Distributes space between children */
+  align-items: center; /* Vertically aligns children */
 }
 
-.orders-link {
-  margin-top:10px;
+.bakiye-link {
+  margin-top: 5px;
   color: white;
+  flex-shrink: 0;
 }
 
-.returns-text {
-  display: block;
-  font-size: 10px;
-  margin-bottom: 4px;
+.bakiye-text {
+  font-size: 15px;
 }
 
-.orders-text {
-  display: block;
-  font-size: 12px;
+.mil-text {
   font-weight: 500;
+  font-size: 15px;
   color: rgb(136, 227, 0);
 }
 
@@ -127,36 +125,43 @@
   color: white;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   position: relative;
-  width: 600px;
-  border: 1px solid rgba(0,0,0,0);
-  border-radius: 2px; 
-  padding: 0;
-  margin-left: 8px
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  padding: 5px 10px;
+  margin-right: 0;
+  margin-left: -10px; /* Moves the cart-link 10px to the left */
+  width: auto;
 }
- 
+
+
 .cart-link:hover{
   border: 1px solid white;
 }
 
 .cart-icon {
-  width: 50px;
+  width: 35px; /* Adjust width as needed */
+  flex-shrink: 0; /* Prevents the icon from shrinking */
+  margin-right: 5px; /* Space between icon and text */
 }
 
 .cart-text {
-  margin-top: 0px;
   font-size: 15px;
   font-weight: 700;
+  margin-left: 0; /* Removes any automatic left margin */
 }
 
 .cart-quantity {
-  color: white;
   font-size: 15px;
   font-weight: 700;
+  margin-left: 5px; /* Space between text and quantity */
+  position: relative;
+  top: 0; /* Adjust alignment relative to the text */
+}
 
-  position: absolute;
-  top: 17px;
-  left: 93px;
-  
-  width: 26px;
+.bakiye-text,
+.mil-text {
+  display: inline-block;
+  margin-right: 10px; /* Space between the two texts */
 }
