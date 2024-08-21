@@ -11,8 +11,14 @@ products.forEach((product) =>{
               src="${product.image}">
           </div>
 
+          <div class="name-logo">
+          <div>
+          <img class="nft-profile"
+            src="images/icons/nft profile.jpeg">
+          </div>
           <div class="product-name limit-text-to-2-lines">
             ${product.name}
+          </div>
           </div>
 
           <div class="product-rating-container">
