@@ -163,3 +163,9 @@
   border: none;
 }
 
+.brand-name {
+  font-size: 18px;
+  padding-left: 18px;
+  color: rgb(15, 244, 15);
+  padding-right: 8px;
+}
