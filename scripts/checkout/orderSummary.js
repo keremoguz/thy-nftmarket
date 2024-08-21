@@ -28,7 +28,7 @@ export function renderOrderSummary(){
         <div class="cart-item-container 
             js-cart-item-container-${matchingProduct.id}">
             <div class="delivery-date">
-                Cüzdan Adı
+                NFT
             </div>
 
             <div class="cart-item-details-grid">
@@ -86,6 +86,7 @@ export function renderOrderSummary(){
 
             const isChecked = deliveryOption.id === 
                 cartItem.deliveryOptionId;
+            const walletName = deliveryOption.wallet;
             html +=
             `  
             <div class="delivery-option js-delivery-option"
@@ -96,10 +97,10 @@ export function renderOrderSummary(){
                         class="delivery-option-input"
                         name="delivery-option-${matchingProduct.id}">
                     <div>
-                    <div class="delivery-option-date">
-                        Cüzdan Adı
+                    <div class="delivery-option-wallet">
+                        ${walletName}
                     </div>
-                    <div class="delivery-option-price">
+                    <div class="delivery-option-wallet-number">
                         Cüzdan Kodu
                     </div>
                     </div>

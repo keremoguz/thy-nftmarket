@@ -152,13 +152,13 @@
   cursor: pointer;
 }
 
-.delivery-option-date {
+.delivery-option-wallet {
   color: rgb(0, 118, 0);
   font-weight: 500;
   margin-bottom: 3px;
 }
 
-.delivery-option-price {
+.delivery-option-wallet-number {
   color: rgb(120, 120, 120);
   font-size: 15px;
 }
@@ -239,7 +239,7 @@
 .satın-al-button {
   margin-left: 30px;
   background-color: rgb(5, 200, 5);
-  border-radius: 10px;
+  border-radius: 15px;
   height: 30px;
   width: 80px;
   border: none;
