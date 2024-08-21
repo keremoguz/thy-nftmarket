@@ -409,13 +409,13 @@ export const products = [
   },
   {
     id: "d2785924-743d-49b3-8f03-ec258e640503",
-    image: "images/products/women-chunky-beanie-gray.webp",
-    name: "Women's Chunky Cable Beanie - Gray",
+    image: "images/products/nft-26.webp",
+    name: "NFT-26",
     rating: {
       stars: 5,
       count: 83
     },
-    priceCents: 2000,
+    priceCents: 4000,
     keywords: [
       "hats",
       "winter hats",
@@ -427,8 +427,8 @@ export const products = [
   },
   {
     id: "ee1f7c56-f977-40a4-9642-12ba5072e2b0",
-    image: "images/products/men-chino-pants-beige.jpg",
-    name: "Men's Classic-fit Pleated Chino Pants",
+    image: "images/products/nft-27.webp",
+    name: "NFT-27",
     rating: {
       stars: 4.5,
       count: 9017
@@ -442,8 +442,8 @@ export const products = [
   },
   {
     id: "1c079479-8586-494f-ab53-219325432536",
-    image: "images/products/men-athletic-shoes-green.jpg",
-    name: "Men's Athletic Sneaker",
+    image: "images/products/nft-28.webp",
+    name: "NFT-28",
     rating: {
       stars: 4,
       count: 229
@@ -458,13 +458,13 @@ export const products = [
   },
   {
     id: "4df68c27-fd59-4a6a-bbd1-e754ddb6d53c",
-    image: "images/products/men-navigator-sunglasses-brown.jpg",
-    name: "Men's Navigator Sunglasses Pilot",
+    image: "images/products/nft-29.webp",
+    name: "NFT-29",
     rating: {
       stars: 3.5,
       count: 42
     },
-    priceCents: 3500,
+    priceCents: 4000,
     keywords: [
       "sunglasses",
       "glasses",
@@ -474,8 +474,8 @@ export const products = [
   },
   {
     id: "4e37dd03-3b23-4bc6-9ff8-44e112a92c64",
-    image: "images/products/non-stick-cooking-set-15-pieces.webp",
-    name: "Non-Stick Cookware Set, Pots, Pans and Utensils - 15 Pieces",
+    image: "images/products/nft-30.webp",
+    name: "NFT-30",
     rating: {
       stars: 4.5,
       count: 511
@@ -488,13 +488,13 @@ export const products = [
   },
   {
     id: "a434b69f-1bc1-482d-9ce7-cd7f4a66ce8d",
-    image: "images/products/vanity-mirror-silver.jpg",
-    name: "Vanity Mirror with Heavy Base - Chrome",
+    image: "images/products/nft-31.webp",
+    name: "NFT-31",
     rating: {
       stars: 4.5,
       count: 130
     },
-    priceCents: 3500,
+    priceCents: 2500,
     keywords: [
       "bathroom",
       "washroom",
@@ -504,13 +504,13 @@ export const products = [
   },
   {
     id: "a45cfa0a-66d6-4dc7-9475-e2b01595f7d7",
-    image: "images/products/women-french-terry-fleece-jogger-camo.jpg",
-    name: "Women's Fleece Jogger Sweatpant",
+    image: "images/products/nft-32.webp",
+    name: "NFT-32",
     rating: {
       stars: 4.5,
       count: 248
     },
-    priceCents: 6000,
+    priceCents: 3500,
     keywords: [
       "pants",
       "sweatpants",
@@ -521,13 +521,13 @@ export const products = [
   },
   {
     id: "d339adf3-e004-4c20-a120-40e8874c66cb",
-    image: "images/products/double-elongated-twist-french-wire-earrings.webp",
-    name: "Double Oval Twist French Wire Earrings - Gold",
+    image: "images/products/nft-33.webp",
+    name: "NFT-33",
     rating: {
       stars: 4.5,
       count: 117
     },
-    priceCents: 5500,
+    priceCents: 8000,
     keywords: [
       "accessories",
       "womens"
@@ -535,13 +535,13 @@ export const products = [
   },
   {
     id: "d37a651a-d501-483b-aae6-a9659b0757a0",
-    image: "images/products/round-airtight-food-storage-containers.jpg",
-    name: "Round Airtight Food Storage Containers - 5 Piece",
+    image: "images/products/nft-34.webp",
+    name: "NFT-34",
     rating: {
       stars: 4,
       count: 126
     },
-    priceCents: 3000,
+    priceCents: 4000,
     keywords: [
       "boxes",
       "food containers",
@@ -550,13 +550,13 @@ export const products = [
   },
   {
     id: "0d7f9afa-2efe-4fd9-b0fd-ba5663e0a524",
-    image: "images/products/coffeemaker-with-glass-carafe-black.jpg",
-    name: "Coffeemaker with Glass Carafe and Reusable Filter - 25 Oz, Black",
+    image: "images/products/nft-35.webp",
+    name: "NFT-35",
     rating: {
       stars: 4.5,
       count: 1211
     },
-    priceCents: 9000,
+    priceCents: 3000,
     keywords: [
       "coffeemakers",
       "kitchen",
@@ -565,8 +565,8 @@ export const products = [
   },
   {
     id: "02e3a47e-dd68-467e-9f71-8bf6f723fdae",
-    image: "images/products/blackout-curtains-black.jpg",
-    name: "Blackout Curtains Set 42 x 84-Inch - Black, 2 Panels",
+    image: "images/products/nft-36.webp",
+    name: "NFT-36",
     rating: {
       stars: 4.5,
       count: 363
@@ -579,13 +579,13 @@ export const products = [
   },
   {
     id: "8a53b080-6d40-4a65-ab26-b24ecf700bce",
-    image: "images/products/cotton-bath-towels-teal.webp",
-    name: "100% Cotton Bath Towels - 2 Pack, Light Teal",
+    image: "images/products/nft-37.webp",
+    name: "NFT-37",
     rating: {
       stars: 4.5,
       count: 93
     },
-    priceCents: 2500,
+    priceCents: 9000,
     keywords: [
       "bathroom",
       "home",
@@ -594,8 +594,8 @@ export const products = [
   },
   {
     id: "10ed8504-57db-433c-b0a3-fc71a35c88a1",
-    image: "images/products/knit-athletic-sneakers-pink.webp",
-    name: "Waterproof Knit Athletic Sneakers - Pink",
+    image: "images/products/nft-38.webp",
+    name: "NFT-38",
     rating: {
       stars: 4,
       count: 89
@@ -610,13 +610,13 @@ export const products = [
   },
   {
     id: "77a845b1-16ed-4eac-bdf9-5b591882113d",
-    image: "images/products/countertop-blender-64-oz.jpg",
-    name: "Countertop Blender - 64oz, 1400 Watts",
+    image: "images/products/nft-39.webp",
+    name: "NFT-39",
     rating: {
       stars: 4,
       count: 3
     },
-    priceCents: 7000,
+    priceCents: 3500,
     keywords: [
       "food blenders",
       "kitchen",
@@ -625,8 +625,8 @@ export const products = [
   },
   {
     id: "36c64692-677f-4f58-b5ec-0dc2cf109e27",
-    image: "images/products/floral-mixing-bowl-set.jpg",
-    name: "10-Piece Mixing Bowl Set with Lids - Floral",
+    image: "images/products/nft-40.webp",
+    name: "NFT-40",
     rating: {
       stars: 5,
       count: 679
@@ -641,13 +641,13 @@ export const products = [
   },
   {
     id: "aaa65ef3-8d6f-4eb3-bc9b-a6ea49047d8f",
-    image: "images/products/kitchen-paper-towels-30-pack.jpg",
-    name: "2-Ply Kitchen Paper Towels - 30 Pack",
+    image: "images/products/nft-41.webp",
+    name: "NFT-41",
     rating: {
       stars: 4.5,
       count: 1045
     },
-    priceCents: 5000,
+    priceCents: 2500,
     keywords: [
       "kitchen",
       "kitchen towels",
@@ -656,8 +656,8 @@ export const products = [
   },
   {
     id: "bc2847e9-5323-403f-b7cf-57fde044a955",
-    image: "images/products/men-cozy-fleece-zip-up-hoodie-red.jpg",
-    name: "Men's Full-Zip Hooded Fleece Sweatshirt",
+    image: "images/products/nft-42.webp",
+    name: "NFT-42",
     rating: {
       stars: 4.5,
       count: 3157
