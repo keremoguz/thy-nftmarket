@@ -73,6 +73,10 @@ export function renderPaymentSummary() {
             <div> Komisyon &amp; İşlem Ücreti:</div>
             <div class="payment-summary-money">${shippingPriceCents} YM</div>
           </div>
+           <div class="payment-summary-row">
+            <div> Kur :</div>
+            <div class="payment-summary-money"> 0.001 ETH = ${10000} YM</div>
+          </div>
           
           <div class="payment-summary-row total-row">
             <div>Total:</div>

@@ -101,7 +101,7 @@ export function renderOrderSummary(){
                         ${walletName}
                     </div>
                     <div class="delivery-option-wallet-number">
-                        Cüzdan Kodu
+                        Cüzdan Kodu : ${deliveryOption.walletId}
                     </div>
                     </div>
                 </div>
