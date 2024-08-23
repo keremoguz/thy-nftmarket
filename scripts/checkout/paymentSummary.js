@@ -80,7 +80,6 @@ export function renderPaymentSummary() {
             <div>Total:</div>
             <div class="payment-summary-money">${(totalCents)} Yeşil Mil</div>
           </div>
-
             <button class="place-order-button button-primary js-place-order-button">
               Ödeme adımına geç
             </button>
@@ -90,9 +89,14 @@ export function renderPaymentSummary() {
               <img src="images/icons/green-miles.jpg" class = "green-miles-icon">
             </div> 
             <div class = "bakiye-payment-screen">Bakiyeniz : 90.000 Yeşil Mil </div>
-            <button class = "satın-al-button"> Satın Al </button>
+            <button class = "satın-al-button js-satın-al-button"> Satın Al </button>
           `;
+          const satınAlButton = document.querySelector(".js-satın-al-button");
+          satınAlButton.addEventListener('click', () => {
+            alert("Ödeme başarıyla tamamlandı.");
+          });
         });
+
         
     });
     
