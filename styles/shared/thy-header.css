@@ -23,7 +23,7 @@
 
 .brand-name {
   font-size: 18px;
-  padding-left: 18px;
+  margin-left: -70px;
   color: rgb(8, 206, 8);
   padding-right: 8px;
 }
@@ -41,10 +41,6 @@
   cursor: pointer;
   text-decoration: none;
   border: 1px solid rgba(0, 0, 0, 0);
-}
-
-.header-link:hover {
-  border: 1px solid white;
 }
 
 .thy-logo {
