@@ -12,207 +12,7 @@ export function getProduct(productId) {
 
 
 export const products = [
-  {
-    id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
-    image: "images/products/nft-26.webp",
-    name: "NFT-İSTANBUL",
-    rating: {
-      stars: 4.5,
-      count: 87
-    },
-    priceCents: 3000,
-    keywords: [
-      "socks",
-      "sports",
-      "apparel"
-    ]
-  },
-  {
-    id: "15b6fc6f-327a-4ec4-896f-486349e85a3d",
-    image: "images/products/nft-27.webp",
-    name: "NFT-LONDRA",
-    rating: {
-      stars: 4,
-      count: 127
-    },
-    priceCents: 5000,
-    keywords: [
-      "sports",
-      "basketballs"
-    ]
-  },
-  {
-    id: "83d4ca15-0f35-48f5-b7a3-1ea210004f2e",
-    image: "images/products/nft-28.webp",
-    name: "NFT-ROMA",
-    rating: {
-      stars: 4.5,
-      count: 56
-    },
-    priceCents: 4500,
-    keywords: [
-      "tshirts",
-      "apparel",
-      "mens"
-    ],
-    type: "clothing",
-    sizeChartLink: "images/clothing-size-chart.png"
-  },
-  {
-    id: "54e0eccd-8f36-462b-b68a-8182611d9add",
-    image: "images/products/NFT-29.webp",
-    name: "NFT-PARİS",
-    rating: {
-      stars: 5,
-      count: 2197
-    },
-    priceCents: 3500,
-    keywords: [
-      "toaster",
-      "kitchen",
-      "appliances"
-    ]
-  },
-  {
-    id: "3ebe75dc-64d2-4137-8860-1f5a963e534b",
-    image: "images/products/NFT-30.webp",
-    name: "NFT-NEW YORK",
-    rating: {
-      stars: 4,
-      count: 37
-    },
-    priceCents: 8000,
-    keywords: [
-      "plates",
-      "kitchen",
-      "dining"
-    ]
-  },
-  {
-    id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
-    image: "images/products/NFT-31.webp",
-    name: "NFT-İZMİR",
-    rating: {
-      stars: 4.5,
-      count: 175
-    },
-    priceCents: 2500,
-    keywords: [
-      "kitchen",
-      "cookware"
-    ]
-  },
-  {
-    id: "dd82ca78-a18b-4e2a-9250-31e67412f98d",
-    image: "images/products/NFT-32.webp",
-    name: "NFT-ATİNA",
-    rating: {
-      stars: 4.5,
-      count: 317
-    },
-    priceCents: 4000,
-    keywords: [
-      "hoodies",
-      "sweaters",
-      "apparel"
-    ]
-  },
-  {
-    id: "77919bbe-0e56-475b-adde-4f24dfed3a04",
-    image: "images/products/NFT-33.webp",
-    name: "NFT-TOKYO",
-    rating: {
-      stars: 4.5,
-      count: 144
-    },
-    priceCents: 7000,
-    keywords: [
-      "bathroom",
-      "washroom",
-      "restroom",
-      "towels",
-      "bath towels"
-    ]
-  },
-  {
-    id: "3fdfe8d6-9a15-4979-b459-585b0d0545b9",
-    image: "images/products/NFT-34.webp",
-    name: "NFT-BERLİN",
-    rating: {
-      stars: 4.5,
-      count: 305
-    },
-    priceCents: 5000,
-    keywords: [
-      "bathroom",
-      "cleaning"
-    ]
-  },
-  {
-    id: "58b4fc92-e98c-42aa-8c55-b6b79996769a",
-    image: "images/products/NFT-35.webp",
-    name: "NFT-ANTALYA",
-    rating: {
-      stars: 4,
-      count: 89
-    },
-    priceCents: 3000,
-    keywords: [
-      "shoes",
-      "running shoes",
-      "footwear"
-    ]
-  },
-  {
-    id: "5968897c-4d27-4872-89f6-5bcb052746d7",
-    image: "images/products/nft-36.webp",
-    name: "NFT-MADRİD",
-    rating: {
-      stars: 4.5,
-      count: 235
-    },
-    priceCents: 5500,
-    keywords: [
-      "robe",
-      "swimsuit",
-      "swimming",
-      "bathing",
-      "apparel"
-    ],
-    type: "clothing",
-    sizeChartLink: "images/clothing-size-chart.png"
-  },
-  {
-    id: "aad29d11-ea98-41ee-9285-b916638cac4a",
-    image: "images/products/nft-37.webp",
-    name: "NFT-MOSKOVA",
-    rating: {
-      stars: 4.5,
-      count: 30
-    },
-    priceCents: 8000,
-    keywords: [
-      "accessories",
-      "shades"
-    ]
-  },
-  {
-    id: "04701903-bc79-49c6-bc11-1af7e3651358",
-    image: "images/products/nft-38.webp",
-    name: "NFT-VİYANA",
-    rating: {
-      stars: 4.5,
-      count: 562
-    },
-    priceCents: 3500,
-    keywords: [
-      "footwear",
-      "sandals",
-      "womens",
-      "beach",
-      "summer"
-    ]
-  },
+  
   {
     id: "901eb2ca-386d-432e-82f0-6fb1ee7bf969",
     image: "images/products/nft-14.webp",
@@ -327,7 +127,7 @@ export const products = [
   },
   {
     id: "a93a101d-79ef-4cf3-a6cf-6dbe532a1b4a",
-    image: "images/products/nft-21.webp",
+    image: "images/products/nft-8.webp",
     name: "NFT-8",
     rating: {
       stars: 4.5,
@@ -342,7 +142,7 @@ export const products = [
   },
   {
     id: "4f4fbcc2-4e72-45cc-935c-9e13d79cc57f",
-    image: "images/products/nft-22.webp",
+    image: "images/products/nft-9.webp",
     name: "NFT-9",
     rating: {
       stars: 4,
@@ -358,7 +158,7 @@ export const products = [
   },
   {
     id: "8b5a2ee1-6055-422a-a666-b34ba28b76d4",
-    image: "images/products/nft-23.webp",
+    image: "images/products/nft-10.webp",
     name: "NFT-10",
     rating: {
       stars: 4.5,
@@ -376,7 +176,7 @@ export const products = [
   },
   {
     id: "b86ddc8b-3501-4b17-9889-a3bad6fb585f",
-    image: "images/products/nft-24.webp",
+    image: "images/products/nft-11.webp",
     name: "NFT-11",
     rating: {
       stars: 4.5,
@@ -392,7 +192,7 @@ export const products = [
   },
   {
     id: "19c6a64a-5463-4d45-9af8-e41140a4100c",
-    image: "images/products/nft-25.webp",
+    image: "images/products/nft-12.webp",
     name: "NFT-12",
     rating: {
       stars: 4,
@@ -521,7 +321,7 @@ export const products = [
   },
   {
     id: "d339adf3-e004-4c20-a120-40e8874c66cb",
-    image: "images/products/nft-8.webp",
+    image: "images/products/nft-21.webp",
     name: "NFT-20",
     rating: {
       stars: 4.5,
@@ -535,7 +335,7 @@ export const products = [
   },
   {
     id: "d37a651a-d501-483b-aae6-a9659b0757a0",
-    image: "images/products/nft-9.webp",
+    image: "images/products/nft-22.webp",
     name: "NFT-21",
     rating: {
       stars: 4,
@@ -550,7 +350,7 @@ export const products = [
   },
   {
     id: "0d7f9afa-2efe-4fd9-b0fd-ba5663e0a524",
-    image: "images/products/nft-10.webp",
+    image: "images/products/nft-23.webp",
     name: "NFT-22",
     rating: {
       stars: 4.5,
@@ -565,7 +365,7 @@ export const products = [
   },
   {
     id: "02e3a47e-dd68-467e-9f71-8bf6f723fdae",
-    image: "images/products/nft-11.webp",
+    image: "images/products/nft-24.webp",
     name: "NFT-23",
     rating: {
       stars: 4.5,
@@ -579,7 +379,7 @@ export const products = [
   },
   {
     id: "8a53b080-6d40-4a65-ab26-b24ecf700bce",
-    image: "images/products/nft-12.webp",
+    image: "images/products/nft-25.webp",
     name: "NFT-24",
     rating: {
       stars: 4.5,

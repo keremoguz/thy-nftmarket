@@ -31,7 +31,7 @@
    less, we will divide the grid into 6 columns. */
 @media (max-width: 1600px) {
   .products-grid {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
@@ -73,7 +73,7 @@
 
   border-right: 1px solid rgb(231, 231, 231);
   border-bottom: 1px solid rgb(231, 231, 231);
-
+  
   display: flex;
   flex-direction: column;
 }
@@ -110,30 +110,10 @@
   padding-top: 7px;
 }
 
-.product-rating-container {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.product-rating-stars {
-  width: 100px;
-  margin-right: 6px;
-}
-
-.product-rating-count {
-  color: rgb(1, 124, 182);
-  cursor: pointer;
-  margin-top: 3px;
-}
-
 .product-price {
   font-weight: 700;
   margin-bottom: 10px;
-}
-
-.product-quantity-container {
-  margin-bottom: 17px;
+  margin-top: 20px;
 }
 
 .product-spacer {
